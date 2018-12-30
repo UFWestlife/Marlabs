@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db3cb9c4-b166-44bd-9170-40fe2899f40a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eCommerce/Product$Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eCommerce/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eCommerce/ProductPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eCommerce/eTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="db3cb9c4-b166-44bd-9170-40fe2899f40a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -366,10 +360,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3126649" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298153" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298153" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
