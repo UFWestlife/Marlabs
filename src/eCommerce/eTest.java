@@ -39,10 +39,33 @@ public class eTest {
                 "\n  under Foods, we now have "+productPool.map.get(Category.Foods).size()+" products;"
         );
 
-        System.out.println("===== Do you need to insert new Product? (yes/no) =====");
-        boolean flag = scanner.next().equals("yes");
+        System.out.println("===== Please select your user group: ====="
+                        +"\n===== 1. Administrator    2. Customer ====="
+        );
 
-        System.out.println(flag);
+        boolean isAdmin = scanner.nextInt() == 1;
+
+        if (isAdmin) {
+            System.out.println("===== Do you need to insert new Product? (yes/no) =====");
+            boolean isInsert = scanner.next().equals("yes");
+            //System.out.println(flag);
+            if (isInsert) {
+                System.out.println("===== Please select the category of new product:"
+                                +"\n===== 1.Electronics  2.Home  3.Clothes  4.Books  5.Foods "
+                );
+
+                int num = scanner.nextInt();
+                switch (num) {
+                    case(1): {
+
+                    }
+                }
+
+            }
+        }
+
+
+
 
 
     }
