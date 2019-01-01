@@ -76,4 +76,15 @@ public class Product {
     public void setCate(Category cate) {
         this.cate = cate;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "pid='" + pid + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", cate=" + cate +
+                '}';
+    }
+
 }
