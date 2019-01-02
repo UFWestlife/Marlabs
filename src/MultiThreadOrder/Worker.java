@@ -67,8 +67,8 @@ public class Worker {
         }
         @Override
         public void run(){
-            readWriteLock.writeLock().lock();
             try {
+                readWriteLock.writeLock().lock();
                 String threadName = Thread.currentThread().getName();
                 if (queue.size() == 5) {
                     while (!queue.isEmpty()) {
