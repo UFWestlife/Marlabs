@@ -21,7 +21,7 @@ public class Test1 {
 		try{
 		
 			ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
-			engine.eval(new FileReader("src/script.js"));
+			engine.eval(new FileReader("script.js"));
 	
 			Invocable invocable = (Invocable) engine;
 	
